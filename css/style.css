@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    color: #757575;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -21,28 +22,37 @@ h3{
     color: #36b5b0;
     font-family: 'Montserrat', sans-serif;
 }
+
+hr{
+    border-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    border-top: 0;
+    margin-top: 30px;
+}
+
 .top-container{
     padding-top: 4rem;
-    background-color: #c3f0ca;
+    background-color: #9dd8c8;
     position: relative;
 }
 
 .top-cloud{
-    width: 15%;
+    width: 20%;
     position: absolute;
-    right: 20%;
+    right: 18%;
     top: 0.5rem;
 }
 
 .bottom-cloud{
-    width: 15%;
+    width: 20%;
     position: absolute;
     left: 20%;
     top: 6.5rem;
 }
 
 .mountain{
-    width: 45%;
+    width: 55%;
 }
 
 .skill-row{
@@ -52,13 +62,21 @@ h3{
 }
 
 .fullstack-img{
-    width: 25%;
+    width: 30%;
     float: right;
     margin-left: 30px;
 }
 
 .spring-boot-img{
-    width: 25%;
+    width: 30%;
     float: left;
     margin-right: 30px;
+}
+
+.bottom-container{
+    margin-top: 100px;
+}
+
+.contact-me{
+    margin-top: 30px;
 }
